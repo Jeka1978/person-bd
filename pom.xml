@@ -6,7 +6,8 @@
 	<groupId>com.naya</groupId>
 	<artifactId>person-bd</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+
+	<packaging>pom</packaging>
 
 	<name>person-bd</name>
 	<description>Demo project for Spring Boot</description>
@@ -30,6 +31,7 @@
 			<artifactId>main-method-starter</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>

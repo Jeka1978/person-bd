@@ -4,13 +4,14 @@ import com.naya.mainmethodstarter.aop.StadnardRestController;
 import com.naya.personbd.model.Person;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author Evgeny Borisov
  */
-@StadnardRestController
-@RequestMapping("/api")
-public class MyController {
+@RequestMapping("/api2")
+@RestController
+public class MyController2 {
 
     public String ping(){
         return "OK";
